@@ -1,5 +1,4 @@
 let inputBox = document.getElementById("input-box") ;
-// let display = document.getElementById("task-display");
 let display = document.getElementById("container-display");
 let taskButton = document.getElementById("add-task");
 
@@ -12,10 +11,6 @@ function getData()
     console.log(arr);
 
     const newDiv = document.createElement("div");
-    
-    // newDiv.style.backgroundColor='#158ad8';
-    // newDiv.className = "child-class";
-    // newDiv.classList.add("child-class")
 
     const newContent = document.createTextNode(value);
     newDiv.appendChild(newContent);
