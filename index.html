@@ -19,15 +19,27 @@
 
             <div class="d-flex justify-content-center container-box-search">
                 <input type="text" id="input-box" placeholder="Enter a task.."> 
-                <button type="button" class="btn btn-light" id="add-task" onclick="getData()">
-                    <img src="./images/icons8-plus.svg" alt="Add Button">
+                <button type="button" class="btn btn-light" id="add-task">
+                    <img src="./images/plus.svg" alt="Add Button">
                 </button>
             </div>
         </div>
 
+        <div class="check-buttons">
+            <div class="check-buttons-all btn btn-info" id="all">All</div>
+            <div class="check-buttons-active btn btn-warning" id="active">Active</div>
+            <div class="check-buttons-completed btn btn-success" id="completed">Completed</div>
+            <div class="check-buttons-clear btn btn-danger" id="clear">Clear</div>
+        </div>
+
+        <!-- <div id="task-display"></div> -->
+
         <div class="container-display">
             <div class="d-flex justify-content-center align-items-center " id="display">
-                <!-- <p id="task-display"></p> -->
+                <div class="d-flex gap-2 justify-content-end container-display-buttons">
+                    <!-- <div id="delete"></div>
+                    <div id="done"></div>  -->
+                </div>
             </div>
         </div>
         
